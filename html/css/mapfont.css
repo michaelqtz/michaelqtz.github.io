@@ -1,0 +1,491 @@
+@font-face {
+	font-family: 'ongabmap';
+	src:url('http://ongab.ru/html/fonts/ongabmap.eot?f73vez');
+	src:url('http://ongab.ru/html/fonts/ongabmap.eot?f73vez#iefix') format('embedded-opentype'),
+		url('http://ongab.ru/html/fonts/ongabmap.ttf?f73vez') format('truetype'),
+		url('http://ongab.ru/html/fonts/ongabmap.woff?f73vez') format('woff'),
+		url('http://ongab.ru/html/fonts/ongabmap.svg?f73vez#ongabmap') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="famap-"], [class*=" famap-"] {
+	font-family: 'ongabmap';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.famap-music:before {
+	content: "\f001";
+}
+.famap-heart:before {
+	content: "\f004";
+}
+.famap-starfull:before {
+	content: "\f005";
+}
+.famap-multiply:before {
+	content: "\f00d";
+}
+.famap-lock:before {
+	content: "\f023";
+}
+.famap-map-marker:before {
+	content: "\f041";
+}
+.famap-plus:before {
+	content: "\f067";
+}
+.famap-asterisk:before {
+	content: "\f069";
+}
+.famap-leaf:before {
+	content: "\f06c";
+}
+.famap-key:before {
+	content: "\f084";
+}
+.famap-gears:before {
+	content: "\f085";
+}
+.famap-certificate:before {
+	content: "\f0a3";
+}
+.famap-users:before {
+	content: "\f0c0";
+}
+.famap-cloud:before {
+	content: "\f0c2";
+}
+.famap-flask:before {
+	content: "\f0c3";
+}
+.famap-scissors:before {
+	content: "\f0c4";
+}
+.famap-magic:before {
+	content: "\f0d0";
+}
+.famap-gavel:before {
+	content: "\f0e3";
+}
+.famap-lightning:before {
+	content: "\f0e7";
+}
+.famap-lightbulb-o:before {
+	content: "\f0eb";
+}
+.famap-beer:before {
+	content: "\f0fc";
+}
+.famap-github-alt:before {
+	content: "\f113";
+}
+.famap-smile-o:before {
+	content: "\f118";
+}
+.famap-frown-o:before {
+	content: "\f119";
+}
+.famap-question:before {
+	content: "\f128";
+}
+.famap-info:before {
+	content: "\f129";
+}
+.famap-exclamation:before {
+	content: "\f12a";
+}
+.famap-shield:before {
+	content: "\f132";
+}
+.famap-anchor:before {
+	content: "\f13d";
+}
+.famap-android:before {
+	content: "\f17b";
+}
+.famap-female:before {
+	content: "\f182";
+}
+.famap-male:before {
+	content: "\f183";
+}
+.famap-bug:before {
+	content: "\f188";
+}
+.famap-pagelines:before {
+	content: "\f18c";
+}
+.famap-dot-circle-o:before {
+	content: "\f192";
+}
+.famap-home:before {
+	content: "\e600";
+}
+.famap-gift:before {
+	content: "\e900";
+}
+.famap-trophy:before {
+	content: "\e901";
+}
+.famap-food:before {
+	content: "\e902";
+}
+.famap-leaf2:before {
+	content: "\e903";
+}
+.famap-fire1:before {
+	content: "\e904";
+}
+.famap-accessibility:before {
+	content: "\e601";
+}
+.famap-eye:before {
+	content: "\e905";
+}
+.famap-star2:before {
+	content: "\e906";
+}
+.famap-star3:before {
+	content: "\e907";
+}
+.famap-heart2:before {
+	content: "\e908";
+}
+.famap-happy:before {
+	content: "\e909";
+}
+.famap-smiley:before {
+	content: "\e90a";
+}
+.famap-tongue:before {
+	content: "\e90b";
+}
+.famap-wink:before {
+	content: "\e90c";
+}
+.famap-grin:before {
+	content: "\e90d";
+}
+.famap-cool:before {
+	content: "\e90e";
+}
+.famap-evil:before {
+	content: "\e90f";
+}
+.famap-confused:before {
+	content: "\e910";
+}
+.famap-notification:before {
+	content: "\e911";
+}
+.famap-question2:before {
+	content: "\e912";
+}
+.famap-info2:before {
+	content: "\e913";
+}
+.famap-enter:before {
+	content: "\e914";
+}
+.famap-exit:before {
+	content: "\e915";
+}
+.famap-home2:before {
+	content: "\e603";
+}
+.famap-intersection:before {
+	content: "\e604";
+}
+.famap-yinyang:before {
+	content: "\e605";
+}
+.famap-home3:before {
+	content: "\e602";
+}
+.famap-paper:before {
+	content: "\e608";
+}
+.famap-circle2:before {
+	content: "\e60c";
+}
+.famap-circle3:before {
+	content: "\e60d";
+}
+.famap-lokhness:before {
+	content: "\e60e";
+}
+.famap-tree:before {
+	content: "\e606";
+}
+.famap-stardown:before {
+	content: "\e917";
+}
+.famap-miel:before {
+	content: "\e918";
+}
+.famap-oiltop:before {
+	content: "\e919";
+}
+.famap-oil:before {
+	content: "\e91a";
+}
+.famap-tunnel:before {
+	content: "\e91b";
+}
+.famap-pick:before {
+	content: "\e607";
+}
+.famap-bull:before {
+	content: "\e611";
+}
+.famap-sword1:before {
+	content: "\e91e";
+}
+.famap-pole:before {
+	content: "\e91f";
+}
+.famap-potionfull:before {
+	content: "\e920";
+}
+.famap-potion:before {
+	content: "\e921";
+}
+.famap-kirka:before {
+	content: "\e922";
+}
+.famap-axe1:before {
+	content: "\e925";
+}
+.famap-axe2:before {
+	content: "\e928";
+}
+.famap-megapotion:before {
+	content: "\e92b";
+}
+.famap-sunduk:before {
+	content: "\e92c";
+}
+.famap-home4:before {
+	content: "\e60f";
+}
+.famap-cloud2:before {
+	content: "\e609";
+}
+.famap-arc:before {
+	content: "\e610";
+}
+.famap-sleep:before {
+	content: "\e931";
+}
+.famap-acorn:before {
+	content: "\e60a";
+}
+.famap-mallet:before {
+	content: "\e60b";
+}
+.famap-stopper:before {
+	content: "\e932";
+}
+.famap-tornado:before {
+	content: "\e638";
+}
+.famap-cross:before {
+	content: "\e612";
+}
+.famap-fire:before {
+	content: "\e613";
+}
+.famap-cat:before {
+	content: "\e936";
+}
+.famap-dog:before {
+	content: "\e614";
+}
+.famap-rabbit:before {
+	content: "\e937";
+}
+.famap-bigace:before {
+	content: "\e938";
+}
+.famap-cogwheel:before {
+	content: "\e615";
+}
+.famap-tree2:before {
+	content: "\e616";
+}
+.famap-medal:before {
+	content: "\e939";
+}
+.famap-box:before {
+	content: "\e617";
+}
+.famap-bullet:before {
+	content: "\e93a";
+}
+.famap-gun:before {
+	content: "\e93b";
+}
+.famap-herb:before {
+	content: "\e618";
+}
+.famap-chutch:before {
+	content: "\e93c";
+}
+.famap-shirt:before {
+	content: "\e619";
+}
+.famap-mountain:before {
+	content: "\e93d";
+}
+.famap-chiken:before {
+	content: "\e93e";
+}
+.famap-troyan:before {
+	content: "\e940";
+}
+.famap-fishing:before {
+	content: "\e941";
+}
+.famap-clover:before {
+	content: "\e61a";
+}
+.famap-fort:before {
+	content: "\e942";
+}
+.famap-cannon:before {
+	content: "\e61b";
+}
+.famap-christiancross:before {
+	content: "\e944";
+}
+.famap-tank:before {
+	content: "\e61c";
+}
+.famap-fishbone:before {
+	content: "\e61d";
+}
+.famap-bread:before {
+	content: "\e945";
+}
+.famap-spider:before {
+	content: "\e61e";
+}
+.famap-quake:before {
+	content: "\e61f";
+}
+.famap-fish:before {
+	content: "\e620";
+}
+.famap-cupcake:before {
+	content: "\e946";
+}
+.famap-mushroom:before {
+	content: "\e621";
+}
+.famap-bone:before {
+	content: "\e947";
+}
+.famap-steak:before {
+	content: "\e948";
+}
+.famap-eightball:before {
+	content: "\e949";
+}
+.famap-submarine:before {
+	content: "\e94a";
+}
+.famap-viking:before {
+	content: "\e622";
+}
+.famap-skull:before {
+	content: "\e623";
+}
+.famap-island:before {
+	content: "\e624";
+}
+.famap-safe:before {
+	content: "\e94b";
+}
+.famap-virus:before {
+	content: "\e626";
+}
+.famap-macro:before {
+	content: "\e627";
+}
+.famap-forest:before {
+	content: "\e628";
+}
+.famap-stopwatch:before {
+	content: "\e629";
+}
+.famap-boat:before {
+	content: "\e62a";
+}
+.famap-port:before {
+	content: "\e62b";
+}
+.famap-snow:before {
+	content: "\e62c";
+}
+.famap-rain:before {
+	content: "\e62d";
+}
+.famap-flag:before {
+	content: "\e62e";
+}
+.famap-aquarius:before {
+	content: "\e916";
+}
+.famap-law:before {
+	content: "\e62f";
+}
+.famap-money:before {
+	content: "\e94c";
+}
+.famap-student:before {
+	content: "\e630";
+}
+.famap-crown:before {
+	content: "\e631";
+}
+.famap-shovel:before {
+	content: "\e632";
+}
+.famap-hammer:before {
+	content: "\e633";
+}
+.famap-paw:before {
+	content: "\e634";
+}
+.famap-podium:before {
+	content: "\e94d";
+}
+.famap-ghost:before {
+	content: "\e635";
+}
+.famap-sword:before {
+	content: "\e636";
+}
+.famap-bow:before {
+	content: "\e94e";
+}
+.famap-axe:before {
+	content: "\e637";
+}
+.famap-diamond:before {
+	content: "\e94f";
+}
+.famap-crosshairs:before {
+	content: "\f05b";
+}
+

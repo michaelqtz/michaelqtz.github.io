@@ -1,0 +1,1032 @@
+body{
+    position:inherit;
+}
+.b_pic{
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    padding: 0;
+}
+.map_game_logo img {
+    max-width: 80%;
+}
+ul{
+	list-style:none;
+	padding:0;
+}
+.top_line {
+    margin: 0 10px 0 21px;
+    max-width: inherit;
+    position: relative;
+}
+.map_main #locinfo{
+	left: 391px;
+}
+#locinfo{
+    background: none repeat scroll 0 0 rgba(230, 230, 230, 0.84);
+    border-radius: 2px;
+    bottom: 7px;
+    color: #404040;
+    font: 12px/16px Arial,Sans-Serif;
+    left: 145px;
+    padding: 2px 8px;
+    position: absolute;
+    width: 260px;
+    z-index: 4;
+}
+#locinfo b {
+
+}
+#locinfo u {
+	text-decoration:none;
+}
+	.map_control{
+		width:260px;
+		height:100%;
+		padding:55px 20px;
+		background:#333;
+		color:#AAA89F;
+		position:absolute;
+		top:0px;
+		right:0px;	
+		z-index:10;
+	}
+	.map_control h1{
+		color: #FFFEFE;
+		font: 300 17px/28px Arial,sans-serif;
+		padding: 20px 0;
+	}
+	.gamemapselect .btn{
+		display: block;
+		float: none;
+		text-align: left;
+		width: 100%;
+	}
+	.gamemapselect .btn{
+		display: block;
+		float: none;
+		text-align: left;
+		width: 100%;
+	}
+	.modal-dialog{
+		padding-top:0px;
+	}
+	button.close {
+		background: none repeat scroll 0 0 #FFFFFF;
+		border: 0 none;
+		border-radius: 50%;
+		cursor: pointer;
+		display: block;
+		height: 25px;
+		opacity: 1;
+		padding: 0;
+		position: absolute;
+		right: -10px;
+		text-align: center;
+		top: -12px;
+		width: 25px;
+		z-index:12;
+	}
+	button.close:hover {
+		color:#fff;
+		background:#00AFEF;
+	}
+.mapmenu{
+    position: absolute;
+    right: 259px;
+    text-align: center;
+    top: 47px;
+    width: 55px;
+    z-index: 2;
+}
+.mapmenu nav{
+	width:auto;
+	float:none;
+}
+.mapmenu .boxlink{
+	display: inline-block;
+    float: none;
+    font-size: 7px;
+    height: 50px;
+    width: 52px;
+	margin:1px;
+}
+.mapmenu .boxlink i {
+    font-size: 19px;
+    line-height: 19px;
+}
+.map_game_logo{
+	margin-top:40px;
+	padding: 9px 1.5%;
+    position: relative;
+    text-align: center;
+}
+.map_game_logo h1 {
+    color: #EEEEEE;
+    font: bold 10px/10px Arial,sans-serif;
+    letter-spacing: 1pt;
+    margin: 0;
+    padding: 10px 0 5px;
+    text-shadow: 0 0 8px #42A6B8;
+    text-transform: uppercase;
+}
+.map .fly_add{
+    bottom: 52px;
+    left: 240px;
+    right: auto;
+    top: auto;
+}
+.map_my_menu{
+    margin: 0 -18px;
+    padding-bottom: 10px;
+    width: 260px;
+}
+.map_my_menu .boxlink {
+    height: 60px;
+    width: 24.3%;
+}
+.map_my_menu .boxlink i {
+    font-size: 23px;
+    line-height: 28px;
+}
+.pin_list{
+	margin:5px 0 5px 10px;
+	list-style:none;
+}
+.listopener{
+	color: #EEEEEE;
+    font: bold 12px/13px Arial,sans-serif;
+    padding: 0;
+    text-shadow: 0 0 8px #42A6B8;
+    text-transform: uppercase;
+}
+.pin_list input{
+	position:relative;
+	top:2px;
+	margin:0 5px 0 0;
+}
+label{
+    display: inline-block;
+    font: 14px/16px Arial,sans-serif;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: none;
+}
+
+
+#main_col {
+    bottom: 0;
+    left: 60px;
+    position: absolute;
+    right: 240px;
+    top: 37px;
+    z-index: 3;
+}
+.stream_panel {
+    background: none repeat scroll 0 0 #202020;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 240px;
+    z-index: 4;
+}
+#largenav {
+    background: none repeat scroll 0 0 #202020;
+    width: 240px;
+}
+#largenav #slogo {
+    cursor: pointer;
+    display: block;
+    height: 70px;
+    margin: 50px auto 0;
+    opacity: 0.9;
+    text-align: center;
+    width: 200px;
+}
+#largenav #slogo i {
+    color: #555555;
+    font-size: 60px;
+}
+#sidebar_search {
+    padding: 0 20px;
+	position:relative;
+}
+#sidebar_search input {
+    background: #444444 none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    color: #dddddd;
+    height: 30px;
+    outline: medium none;
+    padding: 5px 9px;
+}
+#sidebar_search .fa{
+    font-size: 18px;
+    position: absolute;
+    right: 26px;
+    top: 6px;
+	color:#43A7D5;
+}
+#sidebar_search .fa:hover, #sidebar_search .fa:focus{
+	color:#96DEFF;
+    text-decoration:none;
+}
+#metkarezult{
+    text-align:center;
+	padding:5px;
+	color:#43A7D5;
+	font:bold 11px/12px Arial;
+}
+
+#largenav .snav {
+    bottom: 96px;
+    overflow: auto;
+    position: absolute;
+    top: 230px;
+    width: 240px;
+}
+.tse-content {
+    overflow: auto;
+}
+.snav .header {
+    background: none repeat scroll 0 0 #202020;
+    color: #5F5F5F;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 5px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+.snav .nav-stacked > li {
+    float: none;
+}
+.menu_defaults{
+	color:#999999;
+}
+.menu_defaults li{
+	padding:7px 10px;
+	list-style:none;
+}
+.menu_defaults .fa {
+    font-size: 14px;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    width: 16px;	
+}
+.mopener{
+	position:relative;
+	z-index:1;
+}
+.menu_defaults .mopener:hover{
+	color:#fff!important;
+}
+.menu_defaults .badge{
+    background: none repeat scroll 0 0 #3D3D3D;
+    color: #989898;
+}
+.menu_defaults.nav > li:hover {
+    background: none repeat scroll 0 0 #333333;
+}
+.menu_defaults .active *, .menu_defaults li:hover *{
+	color:#74BAD2;
+}
+
+.mym{
+    background: none repeat scroll 0 0 #23333D;
+    border-bottom: 1px solid #4E4E4E;
+}
+.mopener{
+	position:absolute;
+	cursor:pointer;
+	top:6px;
+	right:10px;
+}
+.subm{
+    margin: 10px -10px 0;
+    padding: 0 0 0 23px;
+	display:none;
+	position:relative;
+}
+.subm li{
+	position:relative;	
+}
+.subm li:before {
+    border-left: 1px dotted #555555;
+    content: "";
+    display: block;
+    height: 22px;
+    left: -8px;
+    position: absolute;
+    top: -10px;
+    width: 1px;
+}
+.subm li:after {
+    border-top: 1px dotted #555555;
+    content: "";
+    display: block;
+    height: 1px;
+    left: -7px;
+    position: absolute;
+    top: 13px;
+    width: 10px;
+}
+.metkaname{
+    color: #82949A;
+    font: 300 14px/14px 'Open Sans',Arial;
+	cursor:pointer;
+	padding: 0 0 0 20px;
+}
+.subm .metkaname{
+	font:13px/14px Arial;
+}
+.snav .nav-divider {
+    border-top: 1px solid #0A0A0A;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.04) inset;
+    height: 8px;
+    margin: 12px 20px 10px;
+}
+.links_group {
+    margin: 15px 0;
+    text-align: center;
+}
+.links_group a {
+    color: #5F5F5F;
+    cursor: pointer;
+    font-size: 11px;
+    margin: 0 3px;
+    white-space: nowrap;
+}
+.links_group a:hover {
+    color: #1F87B8;
+}
+#largenav .bottom {
+    border-top: 1px solid #000000;
+    bottom: 0;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+#largenav .bottom > div {
+    padding: 10px;
+}
+
+#metka{
+	background:#fff;
+	border-radius:5px;
+	box-shadow:0 10px 10px rgba(0,0,0, .3);
+	padding:20px 20px 10px 20px;
+	position:absolute;
+	top:30%;
+	left:30%;
+	z-index:100;
+}
+.metkadiv{
+	padding:20px 0 0;
+	position:relative;
+    /*width:252px;*/
+    width:227px;
+}
+.metkainline{
+	padding:0;
+}
+.metkadiv h2{
+	padding:0;
+	margin:15px 0 5px 0;
+	font:300 16px/18px 'Open Sans',Arial,sans-serif;
+}
+.metkadiv.metkainline h2{
+	margin:0 0 5px 0;
+}
+.pintext{
+	font-size:11px!important;
+	line-height:13px;
+}
+.pinpiks{
+    background: #eee none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    margin-right: -24px;
+    margin-top: 10px;
+    min-height: 60px;
+    position: relative;
+}
+/*
+.pinpiks:before{
+	display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+	position:absolute;
+	content:'';
+	font-size:63px;
+	top:50%;
+	left:50%;
+	margin:-45px 0 0 -35px;
+	color:#fff;
+}
+*/
+.pinpiksowl{
+	list-style:none;
+}
+.opslide{
+	float:left;
+	width:252px;
+	overflow:hidden;
+    max-height: 252px;
+}
+.pinpiks .owl-pagination {
+    bottom: 0;
+    padding: 5px 0;
+    top: auto;
+}
+.opslide img{
+	width:100%;
+}
+.autor_pic {
+    background: #222222 none repeat scroll 0 0;
+    border-radius: 50%;
+    float: right;
+    margin: 11px 0 0 10px;
+    width: 35px;
+    z-index: 11;
+}
+/*
+.autor_pic {
+    background: none repeat scroll 0 0 #222222;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    bottom: 10px;
+    left: 10px;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    top: auto;
+    z-index: 11;
+}
+*/
+.autor_pic img {
+    border-radius: 50%;
+    max-width: 100%;
+}
+.caroufredsel_wrapper{
+	margin:0 !important;
+}
+.pintime {
+    bottom: auto;
+    color: #fff;
+    display: block;
+    font: bold 10px/14px Arial !important;
+    margin-top: 0;
+    padding: 1px 0 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-shadow: 0 0 2px #000000;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.blog_rate {
+    bottom: 17px;
+    display: block;
+    left: 60px;
+    padding: 0 70px 0 0;
+    position: absolute;
+    top: auto;
+    z-index: 10;
+}
+.blog_rate_num {
+    background: none repeat scroll 0 0 #47b9ff;
+    border-radius:20px;
+    color: #ffffff;
+    display: block;
+    font: 18px/17px Arial,sans-serif;
+    margin: 0;
+    padding: 7px 0;
+    text-align: center;
+    width: 31px;
+}
+.blog_rate_plus {
+    display: block;
+    font-size: 18px;
+    line-height: 12px;
+    position: absolute;
+    right: 40px;
+    top: 8px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.blog_rate_plus:hover {
+    color: #41B236 !important;
+    cursor: pointer;
+}
+.blog_rate_minus {
+    display: block;
+    font-size: 18px;
+    line-height: 12px;
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.blog_rate_minus:hover {
+    color: #B25036;
+    cursor: pointer;
+}
+.blog_rate_plus, .blog_rate_minus {
+    color:#47B9FF;
+}
+.pcomdiv {
+    color: #47B9FF;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 10;
+}
+.pcomnum {
+    background: none repeat scroll 0 0 #47B9FF;
+    border-radius: 20px 0 0 20px;
+    color: #FFFFFF;
+    display: block;
+    font: 18px/17px Arial,sans-serif;
+    margin: 0;
+    padding: 7px 12px;
+}
+.pcomdiv .fa{
+    font-size: 18px;
+    left: -28px;
+    position: absolute;
+    top: 5px;
+}
+.msnext, .msprev {
+    color: #e0e0e0;
+    font-size: 77px !important;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 22px;
+    width: 52px;
+    z-index: 10;
+}
+.msnext .fa, .msprev .fa{
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+	left:10px;
+}
+.pinpiks:hover .msnext, .pinpiks:hover .msprev {
+    opacity: 1;
+}
+.msnext {
+    right: -20px;
+}
+.msprev {
+    left: -20px;
+}
+.msnext:hover, .msprev:hover, .msnext:focus, .msprev:focus {
+    color: #fff;
+    background: #000;
+    opacity: 1;
+}
+
+.markernext, .markerprev {
+    background: none repeat scroll 0 0 #FFFFFF;
+    bottom: -10px;
+    color: #0B0B0B;
+    font-size: 24px !important;
+    opacity: 0.2;
+    padding: 0 7px;
+    position: absolute;
+    top: -8px;
+    vertical-align: middle;
+    width: 29px;
+    z-index: 10;
+}
+.markernext {
+    border-radius: 0 2px 2px 0;
+    right: -59px;
+}
+.markerprev {
+    border-radius: 2px 0 0 2px;
+    left: -40px;
+}
+.markernext:hover, .markerprev:hover, .msnext:focus, .markerprev:focus {
+    background: none repeat scroll 0 0 #7ACCFF;
+    color: #FFFFFF;
+    opacity: .9;
+}
+.markernext i, .markerprev i {
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+}
+/*
+.pinpiks:after{
+    background: none repeat scroll 0 0 #000000;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    content: "";
+    display: block;
+    height: 31px;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+*/
+.pinpaginator{
+	position:absolute;
+	top:15px;
+	left:0;
+	width:100%;
+	text-align:center;
+	z-index:10;
+}
+.pinpaginator a{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background:#000;
+	border-radius:50%;
+	margin:0 2px;
+}
+.pinpaginator a.selected{
+	background:#47B9FF;
+}
+.pinpaginator span{
+	display:none;
+}
+.mactions{
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.mactions a {
+    border: 1px solid #d3d3d3;
+    border-radius: 2px;
+    color: #717171;
+    display: inline-block;
+    font-size: 15px !important;
+    line-height: 23px;
+    margin: 1px 9px 0 0;
+    padding: 1px;
+    text-align: center;
+    width: 27px;
+}
+.mactions a:hover{
+	background:#aaa;
+	color:#fff;
+    border: 1px solid #aaa;
+}
+.mtime {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+.mtime .fa.fa-clock-o {
+    margin: 0 3px;
+    position: relative;
+    top: -1px;
+}
+
+.gm-style-iw {
+    overflow-y: hidden !important;
+    transition: all 0.3s linear 0s;
+    width: 400px !important;
+}
+.gm-style-iw > div{
+	overflow:visible!important;
+}
+.gm-style-iw > div > div{
+	overflow:visible!important;
+}
+/** FIX for Bootstrap and Google Maps Info window styes problem **/
+img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
+max-width: none;
+}
+.form-group2{
+	margin-bottom:10px;
+}
+#marker_tags a.fa{
+    font-size: 15px;
+    margin: 2px;
+    text-align: center;
+    width: 15px;
+}
+#loader_block{
+	margin: 0 0 0 45px;
+    height: 60px;
+	overflow:auto;
+}
+.loader_block{
+    background: none repeat scroll 0 0 #ECF6F9;
+    border: 1px dashed #CADDE3;
+    border-radius: 5px;
+    font-size: 11px !important;
+    line-height: 13px;
+    margin: 0 0 2px;
+    padding: 5px 8px;
+}
+.qq-upload-file {
+    display: inline-block;
+    line-height: 13px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 63px;
+	white-space: nowrap;
+}
+.qq-upload-file a{
+	font-size:11px;
+}
+
+.menu_defaults input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+}
+.menu_defaults input[type="checkbox"] + label {
+    cursor: pointer;
+    display: block;
+    padding: 0 0 0 15px;
+    position: relative;
+    width: auto;
+}
+.menu_defaults input[type="checkbox"] + label:hover:before {
+    /*content: "";*/
+	color:#497280;
+}
+.menu_defaults input[type="checkbox"] + label:before {
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 1px;
+	display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+	color:#435156;
+}
+.menu_defaults .active input[type="checkbox"] + label:before, .menu_defaults li:hover input[type="checkbox"] + label:before{
+	color:#74BAD2;
+}
+.menu_defaults input[type="checkbox"]:checked + label:before {
+    content: "";
+}
+.fancybox-skin {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 4px;
+    color: #333333;
+    position: relative;
+    text-shadow: none;
+}
+.fancybox-title{
+	text-align:center;
+	padding:20px;
+	text-transform:uppercase;
+	font:300 14px/15px 'Open Sans';
+}
+.mapmore{
+    color: #B0B0B0;
+    display: inline-block;
+    font-size: 18px !important;
+    margin: -10px 0;
+    position: relative;
+    top: 3px;
+}
+#marker_url{
+    background: none repeat scroll 0 0 #303030;
+    border: 1px solid #444444;
+    bottom: 0;
+    right: 240px;
+    padding: 20px;
+    position: fixed;
+    width: 300px;
+    z-index: 1000;
+	color:#999;
+}
+#marker_url h2{
+	font-size:14px;
+	color:#fff;
+	padding:0;
+	margin:0;
+}
+#marker_url input, #marker_url textarea{
+    background: none repeat scroll 0 0 #D3D3D3;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 15px;
+}
+.closemu{
+	color:#aaa;
+	position:absolute;
+	top:10px;
+	right:10px;
+	font-size:20px;
+	cursor:pointer;
+}
+.marker_url_text{
+	padding:10px 0 5px 0;
+}
+.closemu:hover{
+    color:#fff;
+}
+#maphelp {
+    bottom: 10px;
+    font-size: 11px;
+    position: fixed;
+    right: 0;
+    transition: all 0.2s linear 0s;
+    z-index: 4;
+}
+#maphelp:hover {
+    bottom: 10px;
+    z-index: 10;
+    right: 250px;
+}
+#maphelp a {
+    background: #444444 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #ffffff;
+    display: block;
+    line-height: 10px;
+    margin: 0 0 2px;
+    padding: 5px 5px;
+    opacity:0;
+    transition: all 0.2s linear 0s;
+}
+#maphelp:hover a {
+    opacity:1; 
+}
+#maphelp a:hover {
+    opacity: 1;
+	background:#47B9FF;
+    text-decoration:none;
+}
+.info1{
+    background: #fff none repeat scroll 0 0;
+    border-radius: 2px;
+    bottom: 74px;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+    color: #747373;
+    font-size: 20px;
+    height: 28px;
+    left: -40px;
+    margin: 0 0 5px;
+    opacity: 1;
+    padding: 3px 8px;
+    position: absolute;
+    width: 28px;
+}
+#maphelp:hover .info1{
+    opacity:1;
+}
+.smallcheck{
+	color:#888;
+	font-size:11px!important;
+	position:relative;
+}
+.smallcheck input{
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 2px;
+}
+.metkachords{
+    background: #eeeeee none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #696969;
+    font-size: 10px !important;
+    left: -14px;
+    padding: 3px 10px 3px 9px;
+    position: absolute;
+    top: -22px;
+}
+.mtextarea{
+    font-size: 12px!important;
+    line-height: 12px!important;
+}
+.metkachords .fa{
+	margin-right:4px;
+}
+.mhelpw{
+	margin:30px 40px;
+	display:none;
+	width:500px;
+}
+#marker_txt{
+	padding:30px 30px 40px 30px;
+}
+.cinputs{
+    background: none repeat scroll 0 0 #EEEEEE;
+    font-weight: bold !important;
+    margin: 0px 0 0 0;
+    padding: 0px 0;
+    clear: both;
+	text-align:center;
+}
+.cinputs input, .cinputs select{
+	border: medium none #000000;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #D9D9D9 inset;
+    padding: 1px 2px;
+	text-align:center;
+}
+body.map .fancybox-skin {
+    background: #ffffff none repeat scroll 0 0 !important;
+}
+.mhelpw h2 {
+    font-size: 21px;
+    margin: 0 0 20px;
+}
+.bottomtext{
+    padding:5px;
+    text-align:center;
+    color:#ccc;
+}
+.gm-style-iw .loader {
+    clear: both;
+    padding: 3px 0 10px;
+}
+.gm-style-iw .loader .progress img {
+    width: 90px;
+}
+.gm-style-iw .lodedpic {
+    margin-right: 10px;
+}
+#marker_tags {
+    margin-bottom: 0;
+    font-size: 11px;
+}
+#marker_tags a{
+    border-radius: 50%;
+    color: #444;
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    width: 18px;
+}
+#marker_tags a:hover{
+    background:#1e9acb;
+    color:#fff;
+    text-decoration:none;
+}
+.mactions .m_bookmarked{
+    background: rgb(0, 145, 234) none repeat scroll 0 0;
+    color: #fff !important;
+    border-color:transparent;
+}
+
+[class^="icon-"]{
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class^="fa-"]{
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.mapselector{
+    background: #fff none repeat scroll 0 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+    color: #747373;
+    font-size: 20px;
+    left: 10px !important;
+    opacity: 1;
+    padding: 0 8px;
+    position: absolute;
+    top: 22px !important;
+    width: 150px;
+    z-index: 0;
+}
+.mapselector .form-control, .mapselector .form-control:focus {
+    border: 0 none;
+    box-shadow: none;
+    font-size: 14px;
+    height: 30px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
